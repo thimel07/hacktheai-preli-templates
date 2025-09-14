@@ -1,4 +1,4 @@
-1. // feature01_register_member.c
+// feature01_register_member.c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -57,3 +57,4 @@ int main() {
     for (int i=0;i<member_count;i++) printf("ID:%d Name:%s Age:%d\n", members[i].id, members[i].name, members[i].age);
     return 0;
 }
+
